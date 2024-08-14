@@ -1,0 +1,22 @@
+[project]
+name = "ml"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Alejandro Osornio", email = "aoxo.contact@gmail.com" }
+]
+dependencies = [
+    "numpy>=2.0.1",
+    "polars>=1.4.1",
+    "seaborn>=0.13.2",
+    "matplotlib>=3.9.2",
+    "ipykernel>=6.29.5",
+    "scikit-learn>=1.5.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []

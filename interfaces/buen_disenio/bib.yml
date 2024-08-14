@@ -1,0 +1,13 @@
+tesseract:
+  type: web
+  title: Los 10 principios del buen diseño
+  author: Mauricio Angulo 
+  date: 2024-03-12
+  url: "https://www.tesseractspace.com/blog/los-10-principios-del-buen-diseno/"
+
+agne_vei:
+  type: web
+  title: What Is A Good Design?
+  url: https://www.agnevei.com/what-is-a-good-design/
+  date: 2023-07-13
+  author: Agne Vei
