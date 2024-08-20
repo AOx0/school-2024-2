@@ -31,7 +31,7 @@
 
 Muy importante para los principios de seguridad de la información.
 - Por ejemplo por medio de la Autenticación con TLS y LDAP (redes)
-- No repudio: 
+- No repudio:
   - Por medio de firmas digitales y sellos de tiempo, podemos tener evidencia de una acción especifica realizada por un ususario particular
   - La seguridad en redes implementan sistemas de registro y auditoría para mantener un historial de acciones realizadas por la red
   - Eso si, puede que aunque la firma y sellos que hay indiquen que un usuario lo hizo en realidad haya sido otra persona (por ejemplo por medio de acceso remoto), lo que requiere técnicas forenses para verificarlo
@@ -59,7 +59,7 @@ Queremos transmitir un mensaje de forma que lo haga sin pérdida, de forma secre
 - Número de llaves:
   - Simétrico: 1 sola llave
   - Asimétrico: 2 llaves. Una publica y otra privada
-- Cómo se procesa el algoritmo: 
+- Cómo se procesa el algoritmo:
   - Por bloques de N bytes?
   - Por flujo?
 
@@ -74,3 +74,16 @@ Criptoanalisis si es monoalfabético: Se puede hacer fuerza bruta porque solo so
   - Podemos ver la frecuencia de las letras para compararlo contra la frecuencia de letras en oraciones normales
   - Podemos usar bigramas para ir viendo qué onda
     - (t, h) es el más común
+
+== Playfare
+
+== Hill Cipher [crypto/hill_cypher.py]
+
+- Lester Hill 1929. Es un cifrado multi letra.
+- A cada letra se le asigna un valor del 0 al 26
+- Es una multiplicación de matrices
+  $"Cifrado" = "Plano" "Key" mod 26$
+
+Con:
+  - $"Plano" = "Pay more money"$
+  - $"Key" = [[17, 17, 5], [21, 18, 21], [2, 2, 19]]$

@@ -158,7 +158,7 @@ El que sepamos qué hacer con algo necesita:
 - Feedback
 
 
-= Actividad
+= Actividad: Mejorar diseño de colas
 
 - Hay un sistema de tickets con Lobby, Waiting Room, Queue, Elección de asiento
 - Estamos en el queue  que dice cuantas personas hay delante. En teoría está mal.
@@ -166,3 +166,52 @@ El que sepamos qué hacer con algo necesita:
   - Qué tenemos ahora?
   - Cómo lo mejoramos?
   - Necesitamos usar constraints, affordances para rediseniar la experiencia.
+
+== Soluciones:
+
+- La sala de espera no mostraba el tiempo que le quedaba
+- No hay forma de que el usuario se distraiga. Él pensaba que sería bueno
+
+= Root Cause Analysis
+
+¿Qué pasó?, ¿Por qué pasó?, ¿Cómo evitar que pase de nuevo?
+
+Mediante 5 preguntas de reflexión podemos llegar a la ruta. Primero respondemos a por qué el problema, y después vamos preguntándonos recursivamente por qué hasta llegar 5 niveles dentro.
+
+El problema es que pasó X. Por que? Porque Y. Y por qué Y? Porque A. Y por qué A? Porque B y C pasaron por D. Por qué pasaron por D? Porque ... y así.
+
+La clave es no parar en el primer error humano, sino que debemos buscar a fondo por qué pasó ese error.
+
+- Acciones de sensibilidad: Nos es muy facil resolver algo porque tenemos sentido común. Si la acción pasa del sentido común.
+- Dar la posibilidad de que los errores puedan ser reversibles o que se confirme con contraints lo que se puede hacer
+- No tratar el error como uno, sino que es parte del camino.
+
+Hay accidentes y hay errores.
+
+= ??
+
+- Contextualizar el problema: Ver si hay limitantes, cuáles son, por qué son? ¿Se pueden eliminar?
+- Redactar el problema: 
+
+= Diseño para el mundo real
+
+Estamos diseñando para el mundo real. Las nuevas tecnologías pueden darnos la tentación de diseñar algo si o si, ya porque es nuevo. 
+
+Sin embargo, necesitamos buscar diseñar para solucionar problemas humanos.
+
+- *Innovación Radical*: Llama la atención, pero es difícil que tenga éxito. Tiene la habilidad de crear nuevos mercados y derrocar aquellos ya establecidos. Por ejemplo Uber. Se benefician por ser el pionero aquellos que lo hacen.
+  - Desventajas: Muchos recursos, ya existe algo más tradicional
+  
+- *Innovación incremental*: Mejorar algo que ya existe
+  - Ya hay usuarios existentes de productos similares
+  - Nosotros hacemos pequeños cambios para mejorarlo y ganar mercado
+  - Hay menos pruebas e investigación
+  - *Pasos:*
+    - Identificar la competencia. Ver cómo mejorarlo. No es por odio pero cada quien en su rollo.
+    - Fijar metas realistas.
+    - Estar dispuestos a cambiar de rumbo.
+    - Comunicación: mantener a todos informados, escuchar sus opiniones.
+
+= Challenge-based learning
+
+Es un framework para resolver problemas.

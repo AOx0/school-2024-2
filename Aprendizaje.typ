@@ -133,3 +133,10 @@ En esta forma de evaluar tenemos:
 - 1 función original que suma todas las diferencias (no obtiene el promedio)
 - Derivamos con respecto a $beta$, ahora tenemos una función que podemos evaluar en 0 para obtener los mínimos y máximos.
 - Podemos resolverlo a mano con álgebra lineal
+
+== Validar que una regresión lineal es válida
+
+*Linearidad*: Entre la variable a predecir y las variables que lo predicen tiene que existir una relación lineal. #rect[Lo que hicimos sobre el residuo, y observar si hay patrones claros, si se presentan quiere decir que no se cumple]
+
+*Homoscedasticidad*: Cuando los datos _tienden_? a la misma dirección. Misma varianza. (la contra es hetero- distinta varianza)
+  - Ejemplo: Si hay una distribución de datos que tienden a 0 y a infinito (como un cono/embudo), entonces una regresión lineal es una mala idea. Esto porque el error crece en ambas (?, direcciones

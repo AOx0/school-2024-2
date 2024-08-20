@@ -1,3 +1,5 @@
+#set heading(numbering: "1.1")
+
 Comprender y analizar las principales tendencias que han configurado nuestro momento histórico.
 
 Ya vimos en clases pasadas las tendencias en la época medieval, por ejemplo.
@@ -263,17 +265,130 @@ Se dan ideas ilustradas, a diferencia de como sucedió en la edad media. Ya hab�
   Solaris podcast: Post-verdad.
 ]
 
-== Modernismo y pos-modernismo
+== Entre Modernismo y pos-modernismo
 
 Hay una paradoja con el progreso técnico (logrado por la racionalidad), que trajo la modernidad. El progreso técnico no es proporcional al progreso moral de los humanos. Es decir, no porque llegamos al modernismo, que incluyó mucho progreso técnico, logramos avanzar en el progreso moral.
+
+Pareciera que no ha habido el mismo progreso moral junto el técnico. Ya vimos que es en parte por Herkheimer @razon_subjetiva, donde se redujo la razón solo a una intrumental.
 
 - Gilles Lipovetsky
   - La modernidad se caracteriza por el esplendor de la racionalidad. Eso llevo a progreso (de qué tipo?)
   - La postmodernidad enfatiza la fragmentación (cierttooo)
   - Hipermodernidad: Si el exceso y la aceleración son dominantes. Nos gustan las cosas rápidas y en exceso.
 
+=== Análisis Gilles Lipovetsky
+
+*Modernismo*
+- La modernidad era la conquista en ciencia, tecnología y en todos los sentidos.
+- Todo lo científico y técnico, producción, todo lo _racional_ nos lleva a cosas buenas
+- Verdad absoluta: "La razón lo puede todo"
+
+*Pos-modernismo*
+- Hay una ambiguedad en el concepto de pos-modernismo. No hay una definición correcta y exacta, pues se sigue desarrollando este período específico. Lo que si identifica Gilles es que definitivamente no somos modernistas
+- Nos gustan los excesos rápidos.
+- Aboga por la fragmentación
+- El modernismo tenía valores objetivos muy marcados, ser racionales nos llevaba a lo mejor, experimentando empíricamente. La pos-modernidad cuestiona esa razón, y aboga por la fragmentación, que cada quien le haga como pueda.
+- No hay una verdad, o sea meta-relatos objetivos.
+- Su ambigüedad se ve en cómo estamos abiertos a múltiples perspectivas, no nos gustan las verdades absolutas.
+
+#table(
+columns: (1fr,) * 2,
+[*Modernidad*], [*Pos-modernidad*],
+[Buscaba la experimentación y el progreso. Dar el salto que no podíamos hacer en la edad media. Se tiene que hacer ordenado, sistemático, con la razón (método científico).], [Si queremos ser innovadores, diferentes, tenemos que estar abiertos a la diversidad. No se estanca la innovación porque podemos deconstruir los meta-relatos],
+[],
+[
+  - Rechazo de lo tradicional: Rechaza los cánones tradicionales. Ej. el arte ya no se pinta como antes, sino que tenemos un plátano pegado a la pared. ejemplo pablo picasso.
+  - Innovación y experimentación: Buscan crear cosas sin precedentes: Ej. Se rompe con el pasado, que no nos dejaba innovar
+],
+[Contra: La constante búsqueda de progreso, generó que la construcción y restauración para la experimentación, se estancó porque reconstruían e innovaban en lo mismo.], [Contra: No se cierra, se abre a múltiples perspectivas, que lleva a la repetición de estilos. Somos tan "globalizados" pero compartimos tantas cosas que no nos distinguimos]
+)
+
+=== Transición
+
+- Hay un cambio en el arte del modernismo al posmodernismo.
+- El posmodernismo hace una re-contextualización, diluir la alta cultura y se genera la cultura de las masas. (ej. ahora no solo los ricos pueden ver arte).
+
+- Ahora: Estoy cansado de siempre ser tan novedoso, en lugar de eso nos estancamos en constantemente reciclar cosas (como remakes)
+- Antes: Se estancó en la innovación y no supo mantener el ritmo de innovación. 
+
+= Eclipse of Reason <razon_subjetiva>
+
+¿Cómo la filosofía ha estudiado la razón y cuál ha sido su impacto en la humanidad?
+
+- Antes: Era la que nos llevaba a descubrir las cosas objetivas y universales
+  - la realidad ya existe y lo que tenemos que hacer es descubrirla
+  - nosotros nos adecuamos al objeto, conocemos la verdad como es. No al revés, porque si no nosotros estaríamos construyendo la razón.
+- Ahora: Ya no es un medio para la objetividad
+  - Es razón instrumental
+  - No hay espacio para la razón moral, reducimos nuestro pensamiento a solo hacer.
+
+#table(
+  columns: (1fr,) * 2,
+  stroke: 0pt,
+  [*Razón Objetiva*], [*Razón subjetiva*],
+  [Fuerza inherente al mundo], [Es una herramienta para alcanzar fines personales (o de quien obedecemos las órdenes)],
+  [Guia al humano en una armonía con un orden mayor al que tenemos acceso], [No importa los medios, solo los fines],
+  [Nos guía a la verdad y las cosas buenas], [No se cuestiona los fines],
+  [], [Limita la razón, porque solo emplea la capacidad mayor de la razón para resolver problemas],
+  [], [Es utilitaria],
+  [], [],
+  [Ej. Los derechos humanos están basados en la igualdad. Aplicable a todos sin importar tiempo, cultural, etc. Es un estándar moral universal], [Ej. La dignidad se basa en los estándares que convienen, mientras seas eficaz],
+  [], [Ej. En una empresa se consideran métricas para determinar si eres eficiente, y por lo tanto recompensándote. Nos reduce a lo que hacemos pero somos más que eso]
+)
+
+#rect[Mundo relativista: Nos enfrentamos a una realidad subjetiva]
+
+== Formalización de la razón
+
+- Se reduce a solo una herramienta técnica
+- La formalización ha hecho que se enfoque en solo la eficacia
+- Ej: Las leyes se basan solo en el PIB para hacer cambios, sin tener en cuenta si de verdad es un cambio bueno social o aumenta nuestro bienestar. 
+
+== Impacto de la razón subjetiva
+
+- No hay valores éticos universales, sino que es como mejor convenga a cada quien (relativismo)
+- Se distorsionan los componentes universales para cada individuo 
+- Ya no respeta un marco universal ético, moral. Se reduce la razón a solo un medio para resolver problemas, vacíos de su contenido moral.
+
 #rect[
-  Lectura: qué diferencias hay 
+  Se ve por ejemplo, en cómo toda la conversación con otros se ve reducida al trabajo. ¿Qué tanto hablo sobre el trabajo? ¿Perdí mi individualidad?
 ]
 
+== Crítica
 
+- La razón instrumental es un medio para el dominio de las cosas.
+- La naturaleza se ve como medio, no fine. Deshumaniza a las personas y la naturaleza. 
+- Nuestra razón es solo utilitaria, dar resultados
+
+#rect[
+  Reinterpretamos ideas universales a solo ver lo más conveniente para mis fines.
+]
+
+#rect[
+  Ejemplo en medicina, los _speakers_ empiezan a vender una cosa _mágica_ que los hacía sentir mejor, y los volvía adictos porque tenía opioides.
+
+  El costo-beneficio es mejor para nosotros (vendedores), no tratamos al paciente, sino que lo hacemos sentir mejor. No buscamos lo mejor objetivamente, sino que los vemos como medios para generar más dinero.
+]
+
+== Erosión de la verdad universal
+
+- La ética existe el _deber ser_
+- Ya no hay moralidad, sino que todo es relativista, todo mundo transmuta sus valores.
+
+== Alienación
+
+- Lleva a una cultura laboral que trata los seres humanos como solo recursos. Somos engranes intercambiables
+- Perdida de conexión emocional, se desconecta la vida personal y emocional. Se exige la supresión de sus necesidades básicas para poder rendir.
+
+== Conclusión
+
+- La razón no es solo una herramienta. Es peligroso, como vimos en la 1ra y 2da guerra mundial.
+- Si solo nos enfocamos en usar la razón para resultados, perdemos la guía moral
+- Necesitamos usar la razón para que juzgue la moralidad, y no solo como un medio para evaluar, resolver.
+
+#rect[
+  Lectura: qué diferencias hay
+
+  Subjetiva: Razón sobre el individuo (o colectivo) y sus fines.
+  Objetiva: Existe una verdad y razón universal a la que podemos tener acceso. 
+]

@@ -1,4 +1,8 @@
+
+
+
 Vamos a priorizar la seguridad de la información sobre la de la red
+
 
 #rect[
   - Inteligencia llevar la información a certeza
@@ -7,6 +11,13 @@ Vamos a priorizar la seguridad de la información sobre la de la red
   - Electrónico existe físicamente y se pasó a electrónico, al cual podemos ver en computadora o físico
   - Físico es el original e lo electrónico
 ]
+
+= Evaluación
+
+- 10% Expo en equipo. Una a fines de septiembre y otra a fines de noviembre
+- 10% Tareas (4 tareas)
+- 20, 20, 25 exámenes parciales + final
+- Proyecto 15. El proyecto final es un CTF casero hecho por el profe.
 
 = Ciberespacio
 
@@ -122,3 +133,45 @@ MITRE: https://attack.mitre.org/ Organización sin fines de lucro, que ayuda en 
 #rect[
   Malware engloba todo lo malo.
 ]
+
+
+
+= Otra vez caso hipotetico de Prism
+
+Espiamos a todo el mundo? 
+- No, esos datos son peligrosos
+- Si, pero me protejo
+
+Acción (o lo haces por dinero) o coacción (o yo te hago algo)
+
+
+= Obtención de la información
+- Contexto o justificación: Qué necesitamos conocer. Qué voy a buscar
+- Objetivo general: Para qué lo quiero. Cuál es el objetivo de poder buscar esa información. De esa información/conocimiento cuáles son los puntos importantes.
+- Objetivo específico: 
+
+
+  - Responsable: Quiénes están involucrados?
+  - Función: Tienes que saber lo que tienes que saber, cuáles son mis funciones y a quien le puedo dar la información que tenemos. ¿Con quiénes tengo contacto? De otra forma podemos tener fugas de información o en algún momento perdamos la información.
+  - Lugar: Podemos hacer prácticamente todo conectados a la red, en internet
+  - Cobertura: Rango de información que podemos tener.
+  - Equipo: Qué vamos a utilizar. 
+
+Nosotros deberíamos de apegarnos a las leyes, buscando los recursos que podamos usar. La cantidad de recursos que tenemos los limitan las leyes y eso. Qué herramientas tenemos, cómo las podemos aprovechar.
+
+Como ejemplo, el 90% de presos no hicieron algo premeditado. Capacidad de Síntesis. Estamos limitados por lo legal, pero podemos compensar con conocimiento y herramientas.
+
+*Respuesta de un informe de inteligencia*: Es importante subrayar que la información que se recopile deberá responder a las preguntas, ¿Qué, quién, cuándo, dónde, cómo, con qué, con quién, por qué y para qué?
+
+https://www.theregister.com/2024/08/02/israeli_hacktivists/
+Hacktivista detenido y contestamos todas las preguntas.
+- Asi como se dice de rapido las respuestas a la preguntas, asi de conciso debe ser el reportar los eventos.
+
+- Qué? Planean atacar el internet, sus sistemas y proveedores,
+- Quién? Hscktivisstas de Israel, WeRedDevils
+- Por qué? 
+- Cúando? 14 Ago
+- por el ataque directo de Hamas a Israel 
+- Dónde? La red eléctrica 
+- Con qué? COn ataques a la malla eletrica
+- Para qué? 
