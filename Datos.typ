@@ -115,6 +115,32 @@ Emplear una mezcla de las distintas formas de almacenamiento, basado en sus fort
 
 
 
+= Pipeline de servicios
 
+- Kafka permite hacer mensajes de cosas en tiempo real. Hay un servidor en Nueva York que tiene en tiempo real donde están ubicados los taxis.
+- Pub/Sub o SNS y SQS es un sistema de mensajería para arquitectura basada en eventos.
+- Dataflow: Para programar pipelines de transformación de datos usando pi-colecciones y que se guarde donde quieras.
+- Streaming Analytics es caro. Hacer las cosas en tiempo real es complicado. 
+- Hadoop/Spark: Escrito en java. Procesa datos en lotes. En nuestro caso nuestro proyecto de segundo parcial. La gente muda su clúster y scripts pero resulta.
+- Dataprep es para armar streams de procesamiento con UI (scriptless con clicks). Es la herramienta de los huevones, para empresas que no tienen un data scientist.
+- DataLake: Los buckets de S3 en amazon para almacenar cosas en bruto.
+- Cloud Firestore no relacional.
+- BigTable NoSQL. para data mayor a 300 GB (mínimo, es muy caro y está en nodos que sortea para decirte tus llaves más pesadas y cómo actualizar los queries). Optimiza los índices para hacer que sea más eficiente. Optimiza hot-spots automáticamente. Si habla de un terabyte, análisis de series de tiempo y cosas bancarias va en big table.
+- Cloud Spanner: Para cuando necesitamos disponibilidad en distintas regiones geográficas de los datos.
+- DataForm maneja pipelines de SQL para irlo transformando, cuenta con versionamiento de git.
+- BigQuery ya tiene muchas cosas para visualizar y eso.
+- Cloud SQL: Si ya tenemos un servidor de mysql o postgres con scripts y cosas asi podemos usar Cloud SQL para más rápido.
+- Looker pero es muy caro, 4000 dolares.
+- Looker Studio es gratis y el pro a 9 dólares el mes. Cada dos semanas hay nuevos conectores.
+- Vertex AI: Igual muy caro. Se rentan TPUs y eso.
+- Cloud Composer: Si tenemos varias fuentes y no sabemos a cuál acceder para obtener los datos podemos usarlo para encontrarlo.
+  - Basado en Apache Airflow para coordinar las cosas que están pasando. 
+- Cloud schedule: Cómo traemos data de minuto a minuto y se guarden en tal lado. Usa chron, un job que se corre cada determinado tiempo. Hay pub-sub para que cuando termine se guarde.
+- Cloud function: Empaqueta tu función. Puede tener un trigger.
 
+#rect[
+  - Cuando algo sale mal vemos los logs. 
+  - S2 y ese tipo de cosas de instancias van por otro lado, es más como.
+  - BigQuery está en todas las etapas, es un data-warehouse que puede hacer de todo, incluyendo información semiestructurada en JSONs
+]
 

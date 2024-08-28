@@ -215,3 +215,44 @@ Sin embargo, necesitamos buscar diseñar para solucionar problemas humanos.
 = Challenge-based learning
 
 Es un framework para resolver problemas.
+
+
+= Clase pasada
+
+- Empatizar con el cliente 
+- Focus group
+
+= UX / User Experience
+
+La experiencia que uno tiene cuando interactúa con un producto. #highlight[Lo más importante es esto.]
+
+No es culpa de que nuestros abuelos no sepan.
+
+== Diseñadores UX
+
+Son los encargados de hacer los productos fáciles, intuitivos, accesible, valioso, etc.
+
+Feedback, responsivo, feedback que vibra, etc. Todos los detallitos influyen en tener una mejor experiencia. 
+
+Ejemplos: Tesla, control de play, contactless, etc. Son muchos detallitos complejos.
+
+Definiciones:
+- Influenciado por expectativas
+- Es un área inter-disciplinaria 
+- Que las cosas sean útiles y usables
+
+Donald Neumann (padre de la UX por todas sus aportaciones) y Jacob Nielsen 
+
+La UX inicia en 1900 por la revolución industrial. Necesitaban que fueran fáciles de usar, el chiste era enseñarse rapido, dominarse igual rápido y producir.
+
+La no se que Spark es de las primeras computadoras en las que Apple se basa para sus Macs. La metralladora, es un ejemplo de UX, el fonógrafo, dinamita, etc.
+
+La UX en servicios, como en aeropuertos, donde se mejoraron las pantallas para que sea más fácil ver; los pasajes que se mejoraron para que sea más entendible, etc.
+
+Va acompañada:
+- Usabilidad https://x.com/Acamica_com/status/1291479156421779458
+- Es imposible ser experto en UX. 
+- Las prácticas se actualizan el producto.
+
+
+

@@ -138,5 +138,80 @@ En esta forma de evaluar tenemos:
 
 *Linearidad*: Entre la variable a predecir y las variables que lo predicen tiene que existir una relación lineal. #rect[Lo que hicimos sobre el residuo, y observar si hay patrones claros, si se presentan quiere decir que no se cumple]
 
-*Homoscedasticidad*: Cuando los datos _tienden_? a la misma dirección. Misma varianza. (la contra es hetero- distinta varianza)
+*Homoscedasticidad*: Cuando los datos _tienden_? a la misma dirección. Misma varianza. (la contra e hetero- distinta varianza)
   - Ejemplo: Si hay una distribución de datos que tienden a 0 y a infinito (como un cono/embudo), entonces una regresión lineal es una mala idea. Esto porque el error crece en ambas (?, direcciones
+
+*Normalidad de los errores*: La distribución de los errores es normal. "Q-Q Plot"
+
+#rect[
+  Normalmente hacerte pasar por la validación del uso de una distribución normal es raro, suele estar automatizado.
+]
+
+== Prueba de hipótesis
+
+- $H_0 "hipótesis nula, es el status quo, no tuvo efecto"$
+- $H_1 "hipótesis alternativa, ej. de hecho si tuvo un efecto"$
+- $P "qué tan probable es que los resultados obtenidos sean verdaderos, dependiendo del valor de P sabemos si se rechaza () o se falla en rechazar la hipótesis nula ()"$
+- $"Nivel de significancia, el umbral de riesgo que queremos asumir de error. 0.05 es 5%. No nos sirve de nada un nivel de confianza de 100% porque lleva a afirmaciones sin sentido como la edad de una persona es de 0 a inf"$
+
+Hay pruebas de hipótesis que nos permiten medir si los datos provienen de una distribución normal:
+
+- Kolmogorov-Smirnof: Compara la distribución de los residuos con una distribución normal.
+- Shapiro : Similar a la de Smirnof pero limitada solo a distribución normal, mientras que la de Kolmogorov-Smirnof permite hacer con cualquier tipo de distribución.
+
+== Correlación
+
+- Cuando el movimiento de una variable es proporcional otra, se dice que se correlacionan.
+- Ejemplos: https://www.tylervigen.com/spurious-correlations
+- Recordar que correlación no implica causa.
+- Para datos lineales podemos saber si se correlacionan con el índice de correlación de Pearson.
+- Ver: https://es.wikipedia.org/wiki/Coeficiente_de_correlaci%C3%B3n_de_Pearson
+
+
+#rect[
+  Primer parcial solo regresión. En el examen habrá dos modelos:
+    - Regresión lineal donde tenemos que evaluar la validez de usar un modelo lineal con las pruebas que vimos.
+    - Lo que queramos.
+]
+
+= Regresión Lineal Múltiple
+
+== Correlación
+
+Cuanto influye el cambio de una variable, respecto a otra
+
+Correlación negativa -1 -> sube una, baja la otra \
+Correlación positiva 0 -> no hay relación \
+Correlación Positiva 1 -> Sube una, sube la otra 
+
+== Coeficiente de correlación de Pearson
+
+Permite cuantificar la correlación entre variables.
+
+https://es.wikipedia.org/wiki/Coeficiente_de_correlaci%C3%B3n_de_Pearson
+
+== Feature Scaling 
+
+Por la magnitud y/o unidades de las cosas podría ser que la diferencia de rangos por magnitud (ej. edad y salario) puede que haga que el efecto de la variable de menor rango de valores tenga un efecto nulo.
+
+Ej 1000000000 (x) + 17 (edad), el 17 no hace nada.
+
+#rect[La distribución normal estándar tiene promedio en 0 y desviación estandar de 1. Es decir centrado en 0]
+
+
+Hay distintos tipos de escalamiento:
+- Standard Scaling aka Estandarización: La media de todo queda en 0, todo queda expresado en términos de desviación estándar, lo que hace que sea más sencillo modelarlo sin que las magnitudes afecten.
+
+
+== Feature Leak en Scaling
+
+Dividimos el modelo en set de prueba y de entrenamiento. Una manera de filtrar información es el restar la media a todo; sin embargo, la media, si toma en cuenta la información del set de prueba, va a afectar las métricas del modelo porque ya habrá considerado datos que se supone no conoce.
+
+Se usa solo los datos del set de entrenamiento para evitar este _leak_, los datos de prueba no recalculan la media ni nada, se mantienen usando la del set de entrenamiento.
+
+Se estandarizan ambos sets por separado:
+- Los de entrenamiento se escalan con media de esos datos
+- Los de prueba se escalan usando la media de los de entrenamiento.
+
+
+

@@ -308,8 +308,123 @@ columns: (1fr,) * 2,
 - Hay un cambio en el arte del modernismo al posmodernismo.
 - El posmodernismo hace una re-contextualización, diluir la alta cultura y se genera la cultura de las masas. (ej. ahora no solo los ricos pueden ver arte).
 
-- Ahora: Estoy cansado de siempre ser tan novedoso, en lugar de eso nos estancamos en constantemente reciclar cosas (como remakes)
-- Antes: Se estancó en la innovación y no supo mantener el ritmo de innovación. 
+- Ahora
+  - Estoy cansado de siempre ser tan novedoso, en lugar de eso nos estancamos en constantemente reciclar cosas (como remakes).
+  - Por ejemplo el sampling the música. También hablan de la moda
+  - El arte esta reducido a solo el materialismo actual
+- Antes
+  - Se estancó en la innovación y no supo mantener el ritmo de innovación.
+  - El arte es un medio para demostrar situaciones, pero hoy en día es diferente?.
+
+=== Consumo de masas (Gilles)
+
+Recordemos el Hedonismo, en el que se les daba rienda suelta a los placeres. En Estados Unidos de 1920 deja de ahorrar y comienzan a darle rienda suelta a tener placer.
+
+En parte por medios de comunicación (cine), moda, el capitalismo en si, y los préstamos y créditos bancarios o pagos a plazas.
+
+Ejemplo Greta Garbo, que representaba la tendencia en la noda. 
+
+Otro ejemplo es la campaña de publicitaria de Coca-Cola. Asocia la alegría de la navidad con la Coca-Cola. Y en Navidad lo que pasa es que compras
+
+=== Arte y sociedad (Gilles)
+
+Se apropió de un dibujo de comida en lata, en la cultura popular. Le cambia los colores, lo duplica, etc. Se apropio de algo que todo mundo identificaba (de la cultura popular). 
+
+#highlight[De-construcción de los meta-relatos modernos, los pueden tomar y mezclar]
+
+=== Cultura individualista
+
+Se fomenta la individualidad. En los 50-60s está el auge del consumo de masas, contribuyendo a una mentalidad más individualista. 
+
+Surge maquillaje, cosas estéticas, salones de belleza, surgen modas y tendencias.
+
+Entre las cosas que surgen del individualismo:
+- Suicidio juvenil
+- Egoísmo
+- Nos volvemos ajenos a la sociedad
+- Es mi cuerpo, hago lo que quiero. Abuso de sustancias, de comida chatarra, cada quien se daña a si mismo y en colectivo todos estamos dañados. #rect[Netflix: Take your Pills]
+- Relativismo sobre la verdad 
+
+=== Transformación Posmoderna (Gilles)
+
+- El modernismo originalmente buscaba si el desarrollo individual, pero no al grado en el que está ahora
+- Todo hiperacelerado (medios, pedidos/entregas)
+
+=== Cómo es la era posmoderna y sus retos
+
+- hiperconsumismo, gratificación instantánea. Cultura del espectáculo. 
+
+
+- Democratización del arte: Se pierden las jerarquías estéticas. Una olla puede ser arte.
+- Hay muchas perspectivas, pero cada quien tiene su verdad que adecua a los intereses individuales. Individualismo.
+- El individualismo pierde las esencias, todo lo de Nietzsche se hace real y existe una fragmentación
+- El consumismo mejora la calidad de vida, pero lleva a las personas a la superficialidad
+
+=== Modernindad a hipermodernidad
+
+#table(
+  [Modernidad], [Posmodernidad], [Hipermodernidad],
+  [s. 17-20], [s.20-], [finales s.20],
+  [La fe está en el progreso de la razón, eso nos lleva a una mejor vida], [Razón critica a la modernidad, y a la fe en el progreso, la razón y la ciencia], [Individualismo y hedonismo (igual que posmoderno), ritmo de vida acelerado, ansiedad, siendo novedosos. Queremos cosas eficientes pero también tener la capacidad de ser comprando],
+  [], [], [],
+)
+
+¿Estamos en la posmodernidad? Puede ser, efectivamente hay cambios sobre el comportamiento de las personas
+
+=== Individualismo, Carreras Profesionales, Estilos de vida diversos
+
+Nuestra individualidad, y nuestra búsqueda por siempre expresarla, nos lleva a un pensamiento:
+- De narcisismo y cultura del yo: Yo tengo que ver por mi y a mi me tienen que hacer caso
+- Por la obsesión de la belleza y estándares de belleza, ha explotado.
+- La mayoría de lo que hablamos es sobre lo que hacemos. Las reuniones solo son de trabajo, nos reducimos solo a eso.
+
+= Hipermodernidad
+
+== Aceleración del tiempo
+
+Ejemplos:
+  - El tiempo se pasa muy rápido. Buscamos tener una agenda ocupada, para sentirse productivo y que se aprovecha hasta el último minuto.
+  - Hay rutina, siempre pensamos en hacer algo. Estamos tan apretados en tiempo que una tarea que tarda 20 min más mata todo el horario.
+  - La música, el arte, la moda, los chistes, todo envejece mucho. Un álbum de música dura 2 años y ya es muy muy viejo.
+  - Constante actualización. Ejemplo hype de rust.
+
+== Consecuencias
+  - Nos hemos vuelto muy impacientes, ponemos la película en x1.5, o hacemos dos cosas a la vez. Entrega rápida en línea.
+  - Información Instantánea: Tiktoks, etc.
+
+  - Alejamiento de estructuras tradicionales: Hay tanta diversidad que nada es como lo era antes, es diferente por ejemplo el tipo de familias
+  - Mayor diversidad de estilos de vida
+  - *Escepticismo hacia grandes narrativas*: Yo ya no me creo la narrativa del cuento de la razón como medio para alcanzar la verdad. Hay discusiones justas por la gran mente abierta a lo que sea, rechazando grandes narrativas. Por ejemplo dar la posibilidad de que la tierra es plana.
+    - Sospecha del método científico. Es genuina la sospecha que tienen las personas.
+
+  - Hay un pensamiento desencadenado por la decepción de las personas con pensar que _x_ y _y_.
+  
+#rect[
+  Pensar en dilemas: Será que hacemos tal o no.
+]
+
+== Retos
+
+- *Primacía del individualismo*. Los individuos le dan prioridad a sus intereses antes que al colectivo, lo que dificulta que se de una ética del cuidado y cooperación. _Si no me afecta, no me meto_
+- *Consumismo y sostenibilidad*. Hasta donde puede llegar? Qué consecuencias tiene?
+- *Nuevos dilemas éticos digitales*. Privacidad de datos, qué pasa con ellos, quién es dueño de ellos y qué se puede hacer con ellos? Todo mal. Y peor aún depende de dónde estás, si estás en Europa hay un modo de operación diferente sobre los datos y regulaciones.
+  - *Caso*: Pruebas de ADN para saber de dónde vienes, fueron contundentes porque le vendieron información a Microsoft para hacer data science y ver qué productos conviene sacar para las posibles enfermedades y condiciones que tenían todas estas personas.
+- *Incertidumbre ética* (Nietzche). La fragmentación de valores genera una incertidumbre ética. No hay una razón objetiva más allá de las cosas que percibimos y moldeamos a nuestros intereses (razón subjetiva).
+
+== Oportunidades
+
+- *Mayor diversidad y estilos de vida*. Cada quien decide cómo desarrollarse.
+- *Flexibilidad*. En el trabajo y en las estructuras sociales. Empresas innovando en tener espacios amigables, no solo como una oficina de la v. Gim, comedor, parque, caminadoras, juegos, etc.
+  - *Nota*: #highlight([Hasta qué punto una cosa es flexible cuando debería ser un derecho?])
+- *Libertad individual*. 
+
+= Charles Taylor: La ética de la autenticidad (clase 3 ~1 hr iniica)
+
+Vivimos en tiempos de crisis social, de la razón, de las instituciones, del individuo, y en todo.
+Se manifiesta en 3 malestares:
+- Individualismo: 
+- Razón instrumental
+- La tecnocracia. Se considera los modelos económicos, políticos y administrativos como reliquias del pasado. Tener especialistas, relacionado al individualismo y razón instrumental. Nos reducimos a nuestra especialidad.
 
 = Eclipse of Reason <razon_subjetiva>
 
@@ -392,3 +507,9 @@ columns: (1fr,) * 2,
   Subjetiva: Razón sobre el individuo (o colectivo) y sus fines.
   Objetiva: Existe una verdad y razón universal a la que podemos tener acceso. 
 ]
+
+#rect[
+  Examen el 10, hay un caso hipotético o algo asi.
+]
+
+

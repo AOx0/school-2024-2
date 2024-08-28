@@ -1,4 +1,3 @@
-
 = Triada de seguridad
 
 + Confidencialidad: Resguardar el acceso y privacidad de información de los usuarios y asociada, sean personas o empresas, etc.
@@ -87,3 +86,23 @@ Criptoanalisis si es monoalfabético: Se puede hacer fuerza bruta porque solo so
 Con:
   - $"Plano" = "Pay more money"$
   - $"Key" = [[17, 17, 5], [21, 18, 21], [2, 2, 19]]$
+
+=== Inversa de la matriz
+
+A = [[5,  8], [17, 3]]
+
+15 mod 12 = 3
+36 mod 26 = 10
+
+Para un número negativo 
+
+-121 % 26
+  - Un número que multiplicado que se pase.
+  - 121 \* 5 = 130 y queda 9
+
+Que en numero positivo no se pase pero en negativo si se pase.
+
+4^
+
+
+== No repudio
