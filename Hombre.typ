@@ -426,6 +426,10 @@ Se manifiesta en 3 malestares:
 - Razón instrumental
 - La tecnocracia. Se considera los modelos económicos, políticos y administrativos como reliquias del pasado. Tener especialistas, relacionado al individualismo y razón instrumental. Nos reducimos a nuestra especialidad.
 
+== Tecnocracia
+
+
+
 = Eclipse of Reason <razon_subjetiva>
 
 ¿Cómo la filosofía ha estudiado la razón y cuál ha sido su impacto en la humanidad?
