@@ -207,6 +207,10 @@ Tienen un objetivo social, escogen paginas de visualización. Vulnerabilidades n
 ## Terrorismo
 
 Buscan la dominación en base al terror. Se usan varios medios para el terrorismo. Inflingir terror.
+Quieren organizar un cambio.
+
+Tecnica de terrorismo vs fenomeno de terrorismo:
+
 
 Tipos:
 - Anarquista: Solo quieren ver el mundo arder
@@ -225,3 +229,11 @@ Usan foros, y sitios propios no regulados donde es sencillo hacer su desmadre.
 ### Ataques
 - Estructurado: Usan software especializado
 - No estructurado: Software poco comun
+
+### Partidos politicos
+- Hamas: Palestina. Son muy radicales, reclaman que quieren volver a tener el territorio de 1948
+- Hezbola: No se donde
+
+## Fake news
+
+Cambiar la verdad o no contarla completa
