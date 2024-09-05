@@ -237,3 +237,20 @@ Usan foros, y sitios propios no regulados donde es sencillo hacer su desmadre.
 ## Fake news
 
 Cambiar la verdad o no contarla completa
+
+# OSINT
+
+Antes del internet hay información con microfono
+
+Investigación tiene dos tipos:
+- Pasiva: Usar otros medios, no directamente
+- Activa: Lanzar un escaneo, directamente
+
+Cuando se hace un ataque:
+- Reconocimiento es activo y pasivo
+
+Ejemplo: 
+  Una persona esta haciendo fraude, no se puede saber que se le está investigando.
+  Se uso una tecnica medio xD, que parece ilegal, peero pues todo sea por los loles.
+  El otro puso candados. Se los voló, asi que probablemente se dejo rastro, y se va a enterar que lo investigaron
+  
