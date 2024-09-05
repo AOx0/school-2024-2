@@ -175,3 +175,53 @@ Hacktivista detenido y contestamos todas las preguntas.
 - Dónde? La red eléctrica 
 - Con qué? COn ataques a la malla eletrica
 - Para qué? 
+
+# Actores y Amenazas
+
+## Hacktivismo
+
+Para promover una ideología? 
+
+Su presupuesto puede venir de donaciones o haciendo trabajos. Que hagan cosas ilegales no deja de hacer que sea hacktivismo
+
+Tienen un objetivo social, escogen paginas de visualización. Vulnerabilidades no tan obvias. Siempre se presenta una idea particular marcada
+
+- DDoS
+- Defacement
+
+### Principales actores:
+- Civiles
+- Anonymous: Muchas personas que arman desmadre en 4Chan
+- Lulz Sec: Este si es un grupo de personas especificas
+- Wikileaks: Es una plataforma para poder difundir cosas, mezclado con fake news. 
+  - Edward Snowden: Cuando publican grabaciones de ataques a hospitales civiles.
+
+### Casos
+
+- Primavera Arabe
+- Activismo anti Vladimir Putin: Se divulgan fotos de asesinatos de la oposición
+
+2chan no se que de anime, pero como es en ingles le ponen 4chan. La cosa de 4chan es que permite publicar sin loggearse. Todos son Anonymous y basicamente se ponen de acuerdo entre usuarios para hacer cosas
+
+
+## Terrorismo
+
+Buscan la dominación en base al terror. Se usan varios medios para el terrorismo. Inflingir terror.
+
+Tipos:
+- Anarquista: Solo quieren ver el mundo arder
+- Religioso: 
+- Politicos: Demuestran su superioridad
+  - Ultra izquierda
+  - Ultra derecha
+
+Usan foros, y sitios propios no regulados donde es sencillo hacer su desmadre.
+
+### Actores principales
+- Organizaciones gubernamentales
+- Alianzas de seguridad internacional
+- Organizaciones terroristas
+
+### Ataques
+- Estructurado: Usan software especializado
+- No estructurado: Software poco comun
