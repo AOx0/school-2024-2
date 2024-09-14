@@ -1,3 +1,4 @@
+# %%
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,10 +9,12 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
+# %%
 # Años de una persona con el salario que tiene
 df = pd.read_csv("/home/ae/Downloads/Salary.csv")
 df.head()
 
+# %%
 # El proceso es un poco distinto porque tenemos que hacer un reshape de los datos.
 X = np.array(df["YearsExperience"]).reshape(-1, 1)
 y = np.array(df["Salary"]).reshape(-1, 1)
@@ -32,23 +35,28 @@ RMSE: {np.sqrt(mean_squared_error(y_test, y_pred))}
 R2: {r2_score(y_test, y_pred)}
 """)
 
+# %%
 # Cada año de experiencia cuánto se mueve el valor del salario.
 print(model.coef_)
 
+# %%
 # Valor de la intersección
 print(model.intercept_)
 
 # Es decir que:
 # salario = 4482 * anos + 30582
 
+# %%
 # Hay un arreglo con los coeficientes
 slope = model.coef_[0][0]
 intercept = model.intercept_
 
+# %%
 # No es como wolfram donde solo le damos la función y la grafica
 # tenemos que hacerlo a mano
 X_line = np.linspace(X.min(), X.max(), 100).reshape(-1, 1)
 
+# %%
 # Evaluamos nuestra función dado ese número de datos generados
 y_line = slope * X_line + intercept
 
@@ -62,10 +70,12 @@ plt.title("Linear Regression Model")
 plt.legend()
 plt.show()
 
+# %%
 # Ahora graficamos también el promedio
 
 plt.scatter(X, y, color="blue", label="Datos")
 
+# %%
 # Estamos mostrando el promedio. Cómo podemos cuantificar qué tan bueno es el promedio en comparación con el modelo?
 # - El error de nuestro modelo es la suma de todos los errores evaluados al cuadrado
 # - El error del primedio es igual la suma de las diferencias con el promedio
@@ -89,6 +99,7 @@ plt.legend()
 plt.show()
 
 
+# %%
 # La distribución de los residuos podría ser normal porque los puntos siguen un patrón
 # aleotorio alrededor de 0
 # Como el residuo no se abre ni cierra en forma de embudo podemos decir que es Homoscedatico?
@@ -101,12 +112,14 @@ plt.xlabel("X")
 plt.ylabel("Residuals")
 plt.show()
 
+# %%
 # La distribución de los residuos parece estar un poco sesgada
 residuals = residuals.reshape(1, -1)[0]
 res_df = pd.DataFrame({"residuals": residuals})
 sns.kdeplot(res_df, x="residuals")
 plt.show()
 
+# %%
 (osm, osr), (slope, intercept, r) = stats.probplot(residuals, dist="norm", plot=plt)
 sns.set(style="whitegrid")
 plt.title("Q-Q Plot")
@@ -114,12 +127,14 @@ plt.xlabel("Teoretical quantiles")
 plt.ylabel("Data quantiles")
 plt.show()
 
+# %%
 # Los puntos parecen seguir la distribución normal, con un poco de separación lo que indica sesgo
 statistics, p_value = stats.shapiro(residuals)
 
 print(f"Estadistico: {statistics}")
 print(f"Valor P: {p_value}")
 
+# %%
 # Los residuos podrían seguir una distribución normal
 alpha = 0.05
 if p_value < alpha:

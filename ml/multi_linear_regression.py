@@ -1,3 +1,4 @@
+# %%
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -13,46 +14,56 @@ from scipy import stats
 
 plt.style.use('theme.mplstyle')
 
+# %%
 # Tiene 4 columnas y queremos ver cuál es la que tiene más relación
 df = pd.read_csv("/home/ae/Downloads/Advertising.csv")
 df.head()
 
 # Tiene que existir una tendencia en la regresión lineal. Aqui vamos a hacer lo mismo con cada variable
 
+# %%
 # Ventas con tv pareciera tener una tendencia, por ejemplo. Las 3 variables en mayor o menor medida pueden ser
 # modeladas como una linea
 sns.pairplot(df)
 
+# %%
 # Nos da una matriz de correlación usando el coeficiente de correlación de pearson
 df.corr()
 
+# %%
 # Nos da una escala de color, mientras más beige mejor correlación
 # Intuición: Vale la pena tener ventas y Tele porque una unidad de tele sube 0.78 de ventas?
 # Recordemos que va de -1 a 1. 0 es nulo.
 # Las ventas parecen influir porque tienen correlaciones altas
 sns.heatmap(df.corr(), annot=True)
 
+# %%
 # La distribución en ventas es más o menos una distribución normal y no hay valores atipicos
 # (montes en los bordes de la distribución)
 # No hay valores atípicos
 sns.kdeplot(df, x='sales', fill=True)
 
+# %%
 # La gráfica de caja tampoco muestra valores atipicos en las ventas
 sns.boxplot(df, y='sales')
 
+# %%
 # TV, radio y newspaper van a ser las variables independientes
 # El valor a predecir es 'sales'. La columna a predecir se pone al final para
 # poder separarla del resto de datos de forma sencilla
 df.columns
 
+# %%
 # Quitamos la columna del final, de forma que las variables independientes quedan
 # separadas
 X = df.drop(df.columns[-1], axis=1)
 y = df['sales']
 
+# %%
 # Dividimos
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.7, random_state=101)
 
+# %%
 # Estandarizamos
 scaler = StandardScaler()
 
@@ -62,11 +73,13 @@ X_train_s = scaler.fit_transform(X_train)
 X_test_s = scaler.transform(X_test)
 X_train_s[:3]
 
+# %%
 # Entrenamos
 model = LinearRegression()
 model.fit(X_train_s, y_train)
 y_pred = model.predict(X_test_s)
 
+# %%
 # Evaluamos
 
 
@@ -82,6 +95,7 @@ print(f"""
     R2: {r2_score(y_test, y_pred)}
 """)
 
+# %%
 # Se tiene que usar el mimso set de datos ya escalados
 residuals = y_test - model.predict(X_test_s)
 residuals.values
@@ -100,12 +114,14 @@ plt.xlabel('Predicted Values')
 plt.ylabel('Residuals')
 plt.show()
 
+# %%
 # Ahora hacemos el histograma
 residuals = (y_test - model.predict(X_test_s)).values.reshape(1,-1)[0]
 res_df = pd.DataFrame({'residuals': residuals})
 sns.kdeplot(res_df, x='residuals', fill=True)
 plt.show()
 
+# %%
 # Se abre un poco hacia las colas, lo que puede sugerir que no son completamente
 # homoge_no_se_que
 #
@@ -117,6 +133,7 @@ plt.xlabel('Theoretical Quantiles')
 plt.ylabel('Data Quantiles')
 plt.show()
 
+# %%
 # Ahora vamos a hacer una prueba de hipótesis para ver si los datos provienen de
 # una distribución normal
 # Tenemos tantas herramientas como podamos para justificar si se debe o no usar un modelo

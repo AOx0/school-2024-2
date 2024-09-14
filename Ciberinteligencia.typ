@@ -253,4 +253,50 @@ Ejemplo:
   Una persona esta haciendo fraude, no se puede saber que se le está investigando.
   Se uso una tecnica medio xD, que parece ilegal, peero pues todo sea por los loles.
   El otro puso candados. Se los voló, asi que probablemente se dejo rastro, y se va a enterar que lo investigaron
-  
+
+== OSINT
+
+Depende de quién eres, a quién quieres investigar y por qué habrá diferencias. Es distinto qué sea un civil, una persona de gob, etc. Lo que varía es: 
+- Recursos económicos
+- Poder de investigación, etc.
+
+=== Cyberacoso
+
+Cualquier técnica de intimidación en plataformas digitales.
+
+Actores:
+- Victima: Un individuo
+- Acosador: Motivado por intimidación, venganza o placer
+- Espectador(es) o testigo(s): Son muchos, anónicmos, ven y interactuan de forma anónima
+
+Características:
+- Atacar, humillar
+- Varia el tipo de medio como imagenes o mensajes
+- Relacionado al acoso, pero como es digital queda registro
+
+Dependiendo del número de victimas, medios de acoso, etc. Se tienen:
+- Cyberbullying
+- Flamming: en foros, humillar a una persona
+- Doxxing: Info privada
+- Outing: Hacer publica información privada
+
+== Inteligencia
+
+Se usa a nivel corporativo, mercadotecnia, etc. "Cuando hacemos que la información sea certeza". Lo importante es poder tomar una decisión. Se pasa el reporte.
+Tipos:
+- Inteligencia militar, gubernamental, estrategica 
+
+Rae: Capacidad de entender o comprender
+
+
+== Ciclo de la información
+
+- Difusión:
+- Planificación
+- Obtención de la información
+- Procesamiento
+- Análisis y producción
+
+== Datos
+
+- Datos: Alg
