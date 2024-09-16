@@ -10,6 +10,7 @@
 #   universal: false
 
 asttokens==2.4.1
+colorama==0.4.6
 comm==0.2.2
 contourpy==1.2.1
 cycler==0.12.1

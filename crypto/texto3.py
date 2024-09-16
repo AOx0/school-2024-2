@@ -15,7 +15,7 @@ letters = [char for char in frequency.keys() if char.isalpha()]
 total_letters = sum(frequency[char] for char in letters)
 
 relative_counts = [frequency[char] / total_letters * 100 for char in letters]
-print(sorted(frequency.items(), key=lambda x: x[1], reverse=True))
+# print(sorted(frequency.items(), key=lambda x: x[1], reverse=True))
 
 plt.bar(letters, relative_counts)
 plt.xlabel('Letters')
@@ -36,29 +36,32 @@ def remplazar():
             'P': 's',
 
             'X': 'u',
-            'H': 's',
+            'H': 'e',
 
             'F': 'i',
-            'U': '_',
+            # 'U': 'r',
 
-            'L': 'n',
+            # 'L': 'o',
             'W': 't',
 
-            'Y': 'v',
-            'G': 'd',
-            'N': 'q',
-            'V': 'y',
+            # 'Y': 'v',
+            # 'G': 'd',
+            # 'N': 'q',
+            # 'V': 'y',
             'K': 'n',
             'M': 'p',
             'O': 'r',
-            'A': 'e',
-            'I': 'a',
+            # 'A': 'e',
+            # 'I': 'f',
+
+            # 'Q': 'u',
+            'Z': 'c',
         }
 
         if not char.isalpha():
             yield char
         else:
-            yield ' ' if key.get(char) is None else key.get(char)
+            yield '-' if key.get(char) is None else key.get(char)
 
 
 print(f'{texto}\n{"".join(remplazar())}')
