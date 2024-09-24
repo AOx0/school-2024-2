@@ -516,4 +516,42 @@ Se manifiesta en 3 malestares:
   Examen el 10, hay un caso hipotético o algo asi.
 ]
 
+= Segundo parcial
 
+== Capitalismo y rev industrial o algo asi
+
+Ejemplo, hoy en día la música se mide por el número de ventas y reproducciones. Ya no es la calidad de la obra sino cuánto se vende, cómo le va.
+
+La escuela de frankfurt critica mucho, y hay muchos movimientos que lo toman como base por el pensamiento crítico.
+
+== Daniel Bell
+
+El capitalismo se ha transformado y lo que busca hoy en día busca otras cosas ¿Es la producción o la explotación lo que nos interesa?.
+
+- Explotación de la naturaleza? Cómo funciona y cómo sacamos recursos
+- En la producción en serie. Industrialización
+- En la información. Poder de la información
+
+
+#rect[
+  No negamos las primeras dos pero se está tomando terreno poco a poco de la información.
+]
+
+Daniel Bell hace una predicción sobre la dirección del capitalismo. Vamos a ver si es cierto o no.
+
+=== Alienación de la juventud
+
+- Desconexión creciente: Las personas se desconectan de sus valores y aspiraciones auténticas
+  - Opinion: Vemos personas que dejan lo que les gusta, se alinean a los valores aceptados por le época
+  - 
+- Generación orientada al consumismo: 
+
+=== Recursos por época
+
+- Preindustrial:
+  - Recursos de la naturaleza
+  - Extractivo, dónde está la materia para que la saquemos. Toca buscar y extraer
+  - Tecnología: Trabajo intenso, manual con herramientas
+- Industrial:
+  - Recurso es la energía
+  - 

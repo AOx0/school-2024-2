@@ -68,6 +68,7 @@ La data abierta a nosostros se esta haciendo mas grande o pequenia.
 - Réplicas de data-lakes. Data lakes para distintos fines (uno para los proveedores, otro para x cosa y otro para n cosa).
 - Hay un mesh-catalog que agrega los datos de los distintos lagos. El catálogo nos permite identificar la fuente del lago donde proviene.
 - Hadoop 
+// - Hay distintos tipos de datos, 
 
 = Qué arquitectura elegir?
 
@@ -144,3 +145,54 @@ Emplear una mezcla de las distintas formas de almacenamiento, basado en sus fort
   - BigQuery está en todas las etapas, es un data-warehouse que puede hacer de todo, incluyendo información semiestructurada en JSONs
 ]
 
+= Parcial 2
+
+
+== Hadoop
+
+#rect[
+  Es muy caótica
+]
+
+- MapReduce: Forma de sortear los datos y llegar a una consulta de datos masivos por medio de computo distribuido, para producir un solo arhivo de salida.
+- Hay nodos trabajadores que realizan trabajos de map-reduce.
+- En cada worker node se encuentra un data node con los bloques de datos.
+
+- Node manager se comunica con el resource manager para informarle sobre su carga de trabajo.
+- El mapreduce puede que copie, analice, cuente, etc.
+
+- Master node:
+  - No procesa datos
+
+- Worker node:
+  - Son los nodos que trabajan en el cluster
+  - Tiene:
+    - Data node
+  - Podemos acceder a sus datos aunque no esté activamente procesando
+
+=== Casos de uso
+
+Polizas de 7 años de sus clientes. Tenían una base de datos que no daba para los 7 años.
+Igual hay veces que la información se guarda por el complience
+
+Ejemplo: Cloudera Quickstart
+
+== Dataproc
+
+EMR (Elastic Map Reduce en AWS). Es el servicio de Google para tener Hadoop, Apache Spark, Apache Hive. Estos 3 se complementan aunque son productos independientes. Los de Apache Spark hicieron DataBricks.
+
+Cloude Storage se vuelve el almacenamiento distribuido.
+
+== Hive
+
+Usa SQL estándard
+
+Metastore: Repositorio donde se guarda la forma de los datos, los cambios de esquema, etc. Sin un metastore no funciona hive, es su componente principal.
+
+En el data lake peude vivir data row y podemos acotar a una base relacional con hive.
+Se usa para web logs, analytics, etc
+
+== Mejores prácticas
+
+Optimizar los queries, hacer particiones, definir esquemas que puedan favorecer el rendimiento.
+Uds, fertified functions para automatizar instrucciones

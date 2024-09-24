@@ -214,4 +214,24 @@ Se estandarizan ambos sets por separado:
 - Los de prueba se escalan usando la media de los de entrenamiento.
 
 
+= Parcial 2
 
+En lugar de eliminar las variables que no nos interesan a mano, podemos usar otros métodos.
+
+#rect[
+  Tienen que cumplir los tests
+]
+
+== Regresión Ridge
+
+Encoge los parámetros para que estén los más importantes, los que no, pierden importancia/no generan impacto.
+
+Todos los features se mantienen, pero se escala su valor.
+
+Genera matrices densas
+
+== Regresión Lasso
+
+Lasso nos permite descartar completamente el valor de un dato. 
+
+Genera matrices dispersas, con algunos valores en 0.
