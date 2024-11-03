@@ -196,3 +196,12 @@ Se usa para web logs, analytics, etc
 
 Optimizar los queries, hacer particiones, definir esquemas que puedan favorecer el rendimiento.
 Uds, fertified functions para automatizar instrucciones
+
+
+== PubSub
+
+Los eventos solo se almacenan por un tiempo limitado para que sean preparados, si pasan más de 7 días por ejemplo, se limpian, se perdió.
+
+Los _ack_ se usan para comprobar que ya se recibió el mensaje, asi ya se pueden borrar los datos.
+
+

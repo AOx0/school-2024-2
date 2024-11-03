@@ -17,3 +17,16 @@ Zygmunt Bauman:
 
 - Bauman critica la ética del trabajo, porque legitimiza un individualismo extremo y la explotación de las personas.
 
+= Prometeo & la paradoja tecnológica
+
+La clase pasada fue relacionada a Prometeo, cómo influencia a la humanidad, cuándo es un derecho, cuándo presenta dilemas éticos. El ser humano estaba listo para manejar el juego?
+
+= Racionalidad técnica
+
+La ética debe mediar respecto a los fines. Es muy importante y necesario, que los avances científicos y técnicos tengan una integración de la ética, si no, no se da el espacio para reflexionar si ese coso beneficia a las personas.
+
+En nombre de la racionalidad se puede hacer de todo, el chiste es meterle ética a la cosa. El que sea legal y valido, que siga la racionalidad como objetivo, nada de eso importa. La ética cambia lo que debería de ser, no debió pasar que hacen eso. La ética dice si se debe o no hacer.
+
+Nuestra racionalidad no solo debe estar orientada a la ciencia y tecnología solo por si mismos, pues llevan a la violación de derechos humanos.
+
+

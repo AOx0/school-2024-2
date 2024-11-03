@@ -216,13 +216,15 @@ Se estandarizan ambos sets por separado:
 
 = Parcial 2
 
+== Regresión
+
 En lugar de eliminar las variables que no nos interesan a mano, podemos usar otros métodos.
 
 #rect[
   Tienen que cumplir los tests
 ]
 
-== Regresión Ridge
+=== Regresión Ridge
 
 Encoge los parámetros para que estén los más importantes, los que no, pierden importancia/no generan impacto.
 
@@ -230,8 +232,16 @@ Todos los features se mantienen, pero se escala su valor.
 
 Genera matrices densas
 
-== Regresión Lasso
+=== Regresión Lasso
 
 Lasso nos permite descartar completamente el valor de un dato. 
 
 Genera matrices dispersas, con algunos valores en 0.
+
+== Clasificación 
+
+Es una variante de una regrsión lineal, es un modelo lineal que se ajusta con la función sigmoide
+
+Se usa el valor de la regresión logística como entrada para una función sigmoide. 
+
+Asi ligramos ver qué influye para que algo pase

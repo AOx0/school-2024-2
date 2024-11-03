@@ -176,9 +176,9 @@ Hacktivista detenido y contestamos todas las preguntas.
 - Con qué? COn ataques a la malla eletrica
 - Para qué? 
 
-# Actores y Amenazas
+= Actores y Amenazas
 
-## Hacktivismo
+== Hacktivismo
 
 Para promover una ideología? 
 
@@ -189,14 +189,14 @@ Tienen un objetivo social, escogen paginas de visualización. Vulnerabilidades n
 - DDoS
 - Defacement
 
-### Principales actores:
+=== Principales actores:
 - Civiles
 - Anonymous: Muchas personas que arman desmadre en 4Chan
 - Lulz Sec: Este si es un grupo de personas especificas
 - Wikileaks: Es una plataforma para poder difundir cosas, mezclado con fake news. 
   - Edward Snowden: Cuando publican grabaciones de ataques a hospitales civiles.
 
-### Casos
+=== Casos
 
 - Primavera Arabe
 - Activismo anti Vladimir Putin: Se divulgan fotos de asesinatos de la oposición
@@ -204,7 +204,7 @@ Tienen un objetivo social, escogen paginas de visualización. Vulnerabilidades n
 2chan no se que de anime, pero como es en ingles le ponen 4chan. La cosa de 4chan es que permite publicar sin loggearse. Todos son Anonymous y basicamente se ponen de acuerdo entre usuarios para hacer cosas
 
 
-## Terrorismo
+== Terrorismo
 
 Buscan la dominación en base al terror. Se usan varios medios para el terrorismo. Inflingir terror.
 Quieren organizar un cambio.
@@ -221,24 +221,24 @@ Tipos:
 
 Usan foros, y sitios propios no regulados donde es sencillo hacer su desmadre.
 
-### Actores principales
+=== Actores principales
 - Organizaciones gubernamentales
 - Alianzas de seguridad internacional
 - Organizaciones terroristas
 
-### Ataques
+=== Ataques
 - Estructurado: Usan software especializado
 - No estructurado: Software poco comun
 
-### Partidos politicos
+=== Partidos politicos
 - Hamas: Palestina. Son muy radicales, reclaman que quieren volver a tener el territorio de 1948
 - Hezbola: No se donde
 
-## Fake news
+== Fake news
 
 Cambiar la verdad o no contarla completa
 
-# OSINT
+= OSINT
 
 Antes del internet hay información con microfono
 
@@ -300,3 +300,61 @@ Rae: Capacidad de entender o comprender
 == Datos
 
 - Datos: Alg
+
+= OSINT ?
+
+Es como un rompecabezas buscar cosas.
+
+- Google es una parte clave
+- Flight radar: Para trackear aviones. Cada avión en el mapa envía su información a torres en tierra o a otros a viones, que hacen el relay de información a una torre. Es un estimado cercano a la realidad.
+  - Ubicación
+  - Información del viaje
+  - Modelo e información del avión
+  - Velocidad y altura
+  - Numero de registro:
+    - NXXXXX: Registrado por USA, para pasar por él. Matricula nectar.
+  - Busqueda por avión, por origen-destino, aereopuerto, etc
+  - Los aviones privados no suelen activar el _transponder_, no hay información sobre el viaje, el avión, etc. Si te deja ver la ubicación
+  - También se puede ver histórico
+
+  #rect[
+    Mayo Zambada: Se subió un avión que era internacional, pero cambia el rumbo a USA, donde lo agarran.
+  ]
+
+- Vessel Finder: Para rastrear barcos
+  - Podemos ver:
+    - Draught: La altura entre la parte más baja y la linea de flote. Con esto podemos darnos cuenta de la dimensión
+    - El IMO es más usado que el MMSI
+    - Velocidad en nudos
+    - Ubicación
+  - Podemos filtrar por:
+    - Tipo de barco (ej. militar)
+    - IMO
+
+#rect[
+  Submarinos comerciales casi no hay. Casi todos son experimentales o militares.
+]
+
+- Train tracker / Open railway map. Para trenes es mejor buscar la ruta en google directamente
+
+== Buscar personas
+
+Páginas para buscar cositas:
+- Face Search:
+  - search4..
+  - facecheck: freemium
+  - searchfaces: busquedas por tiktok
+- Addons para firefox:
+  - Search by image
+- yandex
+
+Pasos:
+  - Buscar la imagen con face search engines
+  - Comparar con face compare
+  - profit
+
+Páginas con retos
+  - Manuel Travezaño: Manuel Bot
+  - Sofía Santos
+
+OSINT Framework: Está desactualizado
